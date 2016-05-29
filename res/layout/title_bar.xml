@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:background="@color/title_blue"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:background="@color/transparent" >
+
+        <Button
+            android:id="@+id/btn_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_titlebar_back"
+            android:gravity="left"
+            tools:ignore="PxUsage" />
+
+        <TextView
+            android:id="@+id/tv_top_title"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:lines="1"
+            android:text="@string/select_files"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/top_right_button"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:text="@string/finish"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

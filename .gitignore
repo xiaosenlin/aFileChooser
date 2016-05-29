@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Android sunshanai
+*.class
+*.apk
+bin/
+gen/
+.settings/
+proguard/
+.metadata/

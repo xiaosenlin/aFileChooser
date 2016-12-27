@@ -39,4 +39,4 @@ mActivity.startActivityForResult(intent, 1);
 
 # 其它说明：
 ## 1.FileChooserActivity2暂为默认"文件选择" 未提供更改标题的接口，如有需要，可自行修改
-
+## 2.如有问题，可以到CSDN留言(http://blog.csdn.net/sunshanai/article/details/51532922) ，一起讨论，谢谢。
